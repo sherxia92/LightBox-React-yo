@@ -1,46 +1,52 @@
 html, body {
   width: 100%;
   height: 100%;
-  background-color: #2222; }
+  background-color: #2222;
+}
 
 .content {
   width: 100%;
-  height: 100%; }
+  height: 100%;
+}
 
 .stage {
   position: relative;
   width: 100%;
-  height: 680px; }
+  height: 680px;
+}
 
 .img-sec {
   position: relative;
   width: 100%;
   height: 100%;
   overflow: hidden;
-  background-color: #ddd; }
-  .img-sec .img-figure {
+  background-color: #ddd;
+
+  .img-figure {
     position: absolute;
     width: 320px;
     height: 360px;
     margin: 0;
     padding: 40px;
     background-color: #fff;
-    box-sizing: border-box; }
-    .img-sec .img-figure figcaption {
-      text-aligh: center; }
-      .img-sec .img-figure figcaption .img-title {
-        margin: 20px 0 0 0;
+    box-sizing: border-box;
+
+    figcaption {
+      text-aligh: center;
+
+      .img-title {
+        margin: 20px 0 0 0 ;
         color: #a7a0a2;
-        font-size: 16px; }
+        font-size: 16px;
+      }
+    }
+  }
+}
 
 .controller-nav {
   position: absolute;
   left: 0;
   bottom: 30px;
   z-index: 101;
-  width: 100%; }
-
-div {
-  width: 100%; }
-
-/*# sourceMappingURL=App.css.map */
+  width: 100%
+}
